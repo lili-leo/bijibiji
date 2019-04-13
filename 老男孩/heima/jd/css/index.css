@@ -1,0 +1,338 @@
+/*中间部分*/
+/*.zhongj{*/
+    /*height: 280px;*/
+    /*width: 100%;*/
+    /*background-color:olivedrab ;*/
+    /*position: relative;*/
+/*}*/
+/*.zhongj .zhong-in{*/
+    /*height: 280px;*/
+    /*background-color:blueviolet ;*/
+    /*position:relative;*/
+    /*z-index: 2;*/
+/*}*/
+/*.zhongj .ahah{*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*background: url(../images/top.jpg) no-repeat top center;*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*z-index: 1;*/
+/*}*/
+/*.zhong-in ul{*/
+    /*height: 280px;*/
+    /*width: 180px;*/
+    /*background-color: #c81623;*/
+/*}*/
+/*.zhong-in ul a{*/
+    /*text-decoration: none;*/
+/*}*/
+/*.zhong-in ul li{*/
+    /*padding-left: 20px;*/
+    /*!*margin-top: 10px;*!*/
+    /*padding-top: 10px;*/
+/*}*/
+/*.zhong-in ul li:hover{*/
+    /*background-color: yellow;*/
+/*}*/
+a{
+    text-decoration: none;
+}
+.jd{
+    height: 480px;
+    /*background-color: pink;*/
+    position: relative;
+}
+.jd-inner{
+    height: 480px;
+    background-color:  #ffffff;
+    position:relative;
+    z-index: 3;
+    /*position: relative;*/
+}
+.ad{
+    height: 480px;
+
+    background: url(../images/bg.png) no-repeat top center;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;  /*一定要写 position已转换行内块 必须有宽高 */
+    z-index: 1;
+}
+.ad a{
+
+    height: 100%;
+    width: 100%;
+     /*z-index: 1;*/
+    /*background: url(../images/bg.png) no-repeat top center;*/
+    /*position: absolute;*/
+    /*top:0;*/
+    /*left: 0;*/
+
+}
+.jd-c1{
+    width: 190px;
+    height: 480px;
+    background-color:lightsteelblue;
+    float: left;
+}
+.jd-c2{
+    height: 480px;
+    width: 790px;
+    background-color:beige;
+    float: left;
+    margin-left: 10px;
+}
+.jd-c3{
+    height: 480px;
+    width: 190px;
+    /*background-color:yellow;*/
+    float: right;
+    overflow: hidden;
+}
+.jd-c1 li{
+    padding-left:15px;
+    height: 28px;
+    line-height: 28px;
+}
+.jd-c1 li:hover{
+    background-color: silver;
+}
+.jd-c1 li a{
+    font-size: 14px;
+    text-decoration: none ;
+}
+.jiayong{
+    margin-top: 25px;
+}
+.jd-c1 li a:hover{
+    color: #f10215;
+}
+.jd-c1 li span{
+    color: #fff;
+    font-size: 12px;
+}
+.c-zhong1{
+    height: 340px;
+    background-color: #ffffff;
+    position: relative;
+}
+.c-zhong2{
+    margin-top: 10px;
+
+}
+.c-zhong2 div{
+    width: 390px;
+    height: 130px;
+    float: left;
+}
+.c-zhong2 .firt1{
+    margin-right: 10px;
+}
+.c-zhong2 div img{
+    width: 100%;
+    height: 100%;
+}
+.jian1,.jian2{
+    height: 60px;
+    width: 30px;
+    top: 50%;
+    margin-top: -30px;
+    position: absolute;
+    text-decoration: none;
+    background-color: silver;
+    text-align: center;
+    line-height: 60px;
+    font-family: icomoon;
+    color: #ffffff;
+    opacity: 0.7;
+}
+.jian1{
+    left: 0;
+}
+.jian2{
+    right: 0;
+}
+.c-zhong1 ol{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 180px;
+    height: 20px;
+    margin-left: -90px;
+    border-radius:10px;
+    background-color:cadetblue;
+    opacity: 0.7;
+}
+.c-zhong1 ol li{
+    width: 12px;
+    height: 12px;
+    background-color:#fff;
+    float: left;
+    border-radius: 50%;
+    margin-left: 9px;
+    margin-top: 4px;
+    cursor: pointer;
+    /*opacity: 0.8;*/
+}
+.user{
+    height:95px;
+    width: 100%;
+    /*background-color: pink;*/
+    /*padding: 20px 0 0 15px;*/
+    padding-top: 20px;
+    padding-left: 14px;
+     /*padding-right: 15px;*/
+    /*padding-bottom: 0px;*/
+    /*overflow: hidden;*/
+}
+
+.user-info{
+    height: 30px;
+    padding-left:54px;
+    font-size: 12px;
+    color: #747474;
+    line-height: 20px;
+    position: relative;
+    /*padding-top: 20px;*/
+}
+.user-info a{
+    font-size: 12px;
+    color: #747474;
+    text-decoration: none;
+}
+.user-info a:hover{
+    color: #f10215;
+}
+.info-img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.info-img img{
+    width: 100%;
+    height:auto;
+    border-radius: 50%;
+}
+.user-pro{
+    margin-top: 25px;
+}
+.user-pro a{
+    width: 70px;
+    height: 20px;
+    border: 2px solid #f10215;
+    display: inline-block;
+    font-size: 12px;
+    color: #f10215;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 4px;
+}
+.user-pro a:hover{
+    background-color: #f10215;
+    color: #ffffff;
+}
+.news{
+    height: 149px;
+    /*background-color:blueviolet;*/
+    border-top: 1px solid olivedrab;
+    border-bottom: 1px solid olivedrab;
+    padding: 5px 15px 0;
+}
+.tab-hd{
+    border-bottom:1px solid #ccc;
+    padding: 3px 0;
+    position: relative;
+}
+.tab-hd a{
+    font-size: 12px;
+    color: #747474;
+    text-decoration: none;
+    margin: 0 4px;
+}
+.tab-hd .cuxiao{
+    border-right: 1px solid #ccc;
+    padding-right: 8px;
+}
+.tab-hd .more{
+    position: absolute;
+    top: 6px;
+    right: 0;
+
+}
+.tab-hd .more:hover{
+    color: #f10215;
+}
+.line{
+    height: 2px;
+    width: 28px;
+    background-color: #f10215;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.tab-bd li{
+    height: 23px;
+    line-height: 23px;
+
+}
+.tab-bd li a{
+    font-size: 12px;
+    color: #747474;
+}
+
+.yinc li{
+    height: 23px;
+    line-height: 23px;
+
+}
+.yinc li a{
+    font-size: 12px;
+    color: #747474;
+}
+
+
+.jd-service{
+    height: 210px;
+    /*background-color:blue ;*/
+}
+.jd-service li{
+    width: 47px;
+    height: 69px;
+    /*background-color: yellow;*/
+    float: left;
+    border-right: 1px solid #cccccc;
+     border-bottom: 1px solid #cccccc;
+}
+.jd-service ul{
+    width: 198px;
+}
+.jd-service li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+     /*overflow: hidden;*/
+    /*background: url(../images/sprite_fs@1x.png) no-repeat;*/
+    /*background-position: 7px -38px;*/
+}
+.jd-service li i{
+    display: block;
+    margin: 15px auto 8px;
+    height: 24px;
+    width: 24px;
+    /*overflow: hidden;*/
+    background: url(../images/sprite_fs@1x.png) no-repeat;
+    /*background-position: 0px -10px;*/
+}
+.jd-service p{
+    text-align: center;
+}
+
+
+

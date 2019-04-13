@@ -1,0 +1,10 @@
+﻿文件下载网址  =>  文件保存路径
+http://www.51sole.com/test/images/x1x.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\x1x.gif
+http://style.51sole.com/images/windows_bg.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\windows_bg.gif
+http://style.51sole.com/template/images/2/skpye.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\skpye.gif
+http://www.51sole.com/test/images/bg.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\bg.gif
+http://style.51sole.com/images/input_bg.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\input_bg.gif
+http://style.51sole.com/template/images/79/more.jpg  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\more.jpg
+http://style.51sole.com/template/css/Template/Images/list_xlicon.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\list_xlicon.gif
+http://style.51sole.com/images/cgdbg.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\cgdbg.gif
+http://style.51sole.com/template/images/2/yahootong.gif  =>  G:\A前端学习资料\前端知识工具点\单页扒站小工具\slw8520.51sole.com\images\yahootong.gif

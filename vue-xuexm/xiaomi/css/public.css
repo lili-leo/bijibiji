@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    /*font-size: 14px;*/
+    /*font-family: "Microsoft YaHei", sans-serif;*/
+    /*color: #595757;*/
+    /*font-family: ;*/
+}
+ul{
+    list-style: none;
+}
+li{
+
+    /*list-style: none;*/
+}
+img{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img,a img{
+    border:0;
+}
+.clearfix:after{
+    visibility:hidden;
+    clear:both;
+    display:block;
+    content:".";
+    height:0;
+}.clearfix{
+     *zoom:1;
+ }
+.fl-f_left{
+    float: left;
+}
+.fr_f-right{
+    float: right;
+}
+

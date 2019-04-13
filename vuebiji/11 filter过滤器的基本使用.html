@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script src="./lib/vue.js"></script>-->
+</head>
+<body>
+<div id="app">
+    <p>{{msg | msgformat('疯狂+1','123')}}</p>
+</div>
+</body>
+<script src="./lib/vue.js"></script>
+<script src="./lib/moment.js"></script>
+<script>
+    Vue.filter('msgformat',function (msg,arg1,arg2) {
+      // 第一个参数可以用正则
+      // return msg.replace('单纯','邪恶')
+      return msg.replace(/单纯/g,arg1+arg2)
+    })
+  var vm = new Vue({
+    el:"#app",
+    data(){
+      return {
+        msg:'单纯的我，单纯的心'
+      }
+    },
+    methods:{//定义方法
+
+    }
+  })
+</script>
+</html>

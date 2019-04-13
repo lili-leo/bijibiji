@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./lib/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <input type="button" value="toggle" @click="flag=!flag">
+    <h3 v-if="flag">v-if控制</h3>
+    <!--//元素会删除-->
+
+    <h3 v-show="flag">v-show控制</h3>
+    <!--show元素会隐藏，不会删除，加了一个display：none-->
+</div>
+<script>
+  var vm = new Vue({
+    el:'#app',
+    data(){
+      return {
+        flag:false
+      }
+    },
+    methods: {
+    }
+  })
+</script>
+</body>
+</html>

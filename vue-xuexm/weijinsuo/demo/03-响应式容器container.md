@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--文档声明-->
+<html lang="zh-CN">
+<head>
+    <!--文档编码声明-->
+    <meta charset="utf-8">
+    <!--要求当前浏览器使用最高版本来渲染-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--视口的设置：视口宽度和设备一致，缩放比列和pc端一致，用户不能自行缩放-->
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!--优先显示编码 最新内核 流式布局自适应，优先加载和浏览器解释-->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="../lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!--解决ie8不支持h5标签和媒体查询不兼容问题-->
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+
+    <!--[if lt IE 9]>
+    <script src="../lib/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="../lib/respond/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--响应时布局容器container-->
+<!--container-fluid-->
+<!--响应时布局容器container-->
+<!--&lt;!&ndash;container-fluid&ndash;&gt;  流式布局-->
+<!--row 行，填充container容器的内间距左右15px-->
+<!--col列-->
+<!--col-lg  大屏设备以上生效 1170px-->
+<!--col-md   中屏设备以上生效 970px-->
+<!--col-sm   小屏设备以上生效 750px-->
+<!--col-xs   超小屏以上生效-->
+<!--第二个*代表每一行的等分，默认12行等分-->
+
+
+
+
+
+<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<script src="../lib/jquery/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="../lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

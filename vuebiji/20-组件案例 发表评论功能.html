@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="./lib/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+    <div>
+        <lable>评论人：<br>
+            <textarea name="" v-model="user1"></textarea>
+        </lable>
+    </div>
+    <div>
+        <lable>评论内容：<br>
+            <textarea name="" v-model="cmter"></textarea>
+        </lable>
+    </div>
+    <input type="button" value="发表评论" @click="fabiao">
+    <ul>
+        <li v-for="item in list" :key="item.id">
+            <span>评论人：{{item.user}}</span>
+            <span>：{{item.content}}</span>
+        </li>
+    </ul>
+</div>
+<script>
+  var vm = new Vue({
+    el:'#app',
+    data(){
+      return {
+        user1:'',
+        cmter:'',
+        // list:''
+        list:[
+          {id:Date.now(),user:'李白',content:'天生我材必有用'},
+          {id:Date.now(),user:'李xiao',content:'天生我材----必有用'},
+          {id:Date.now(),user:'李gang',content:'天生我材=======必有用'}
+        ]
+      }
+    },
+    creatd(){
+      var liilist= JSON.parse(localStorage.getItem("cms") || "[]")
+      this.list.unshift(liilist)
+    },
+    methods: {
+      fabiao(){
+        var addlist={id:Date.now(),user:this.user1,content:this.cmter}
+        var lilist= JSON.parse(localStorage.getItem("cms") || "[]")
+        lilist.unshift(addlist)
+        localStorage.setItem("cms",JSON.stringify(lilist))
+        this.user1=this.cmter=''
+      }
+    },
+  })
+</script>
+</body>
+</html>

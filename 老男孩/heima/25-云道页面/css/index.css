@@ -1,0 +1,58 @@
+/*先删除默认的内外边距*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 1200px;
+    background-color: darkkhaki;
+}
+.heer{
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.inner{
+    height:660px;
+    width:1055px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+     line-height: 100%;
+}
+.c1{
+    float: left;
+}
+.c2{
+
+    line-height: 100px;
+    float: right;
+}
+li{
+     list-style: none;
+    float: left;
+    margin:0 15px;
+
+}
+.c2 li a{
+    text-decoration: none;
+    color:blue;
+}
+.c2 li a:hover{
+    color:red;
+}
+.bnnr{
+    height: 620px;
+    width:1055px;
+    background: url(../images/banner.jpg) no-repeat top center;
+}
+.fuwu-d{
+    border-top: 1px solid red;
+    margin:5px 25px;
+
+}
+div h3{
+    width: 167px;
+    height: 45px;
+    margin:0 auto;
+
+}

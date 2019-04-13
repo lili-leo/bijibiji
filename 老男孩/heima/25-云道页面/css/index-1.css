@@ -1,0 +1,64 @@
+*{
+    /*//删除内往外边距*/
+    margin:0 auto;
+    padding: 0;
+}
+/*顶部确定*/
+body{
+    height: 3000px;
+    background-color: #fafafa;
+}
+body head{
+    height: 100px;
+    background-color: #fff;
+}
+.inner{
+    width: 1200px;
+    height: 100px;
+    /*background-color: bisque;*/
+      line-height: 100px;
+}
+div .log{
+    float: left;
+}
+.daohang{
+    float: right;
+}
+.daohang li {
+        list-style: none;  /*//取消li的小点*/
+        float:left;
+}
+.daohang li a{
+    color: #333;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.daohang li a:hover{
+    color: aqua;
+}
+.banner{
+    background: url("../images/banner.jpg") no-repeat top center;
+    /*background-image: url("../images/banner.jpg");*/
+    height:620px;
+}
+.fuwu{
+    /*margin-top: 75px;*/
+    width: 1055px;
+    background-color: bisque;
+    margin: 75px auto 0;
+}
+.fuwu-tou{
+    border-top: 1px solid blue;
+    margin: 0px 25px;
+}
+.fuwu-tou h2{
+    width: 167px;
+    height: 46px;
+    margin:0 auto;
+    margin-top: -20px;
+}
+
+
+
+
+

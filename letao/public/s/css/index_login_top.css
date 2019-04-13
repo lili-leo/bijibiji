@@ -1,0 +1,10 @@
+﻿.allservice a.nobg{background:none;padding-right:5px;}
+.mainservice a.top_pro_c{background:url(../images/ico.gif) no-repeat;}
+.mainservice a.top_pro_c{margin-left:0;padding:3px 22px 2px 10px;_padding-bottom:2px;background-position:right -118px;border-left:1px solid #ddd;color:#000;text-decoration:none;}
+.topbar .toppop1{right:132px;}
+.topbar .toppop{right:0;left:auto;}
+a.home{background: url(../images/sole_logo_1.gif) no-repeat scroll left 2px transparent;display:block;float:left;height:25px;margin-right:8px;margin-top:3px;padding-left:8px;padding-right:0;width:60px;}
+
+#qrcodebg { text-indent: 0;position: relative;display: inline-block;background:#fff url(../images/codebg.gif) no-repeat 2px 2px;width: 22px;height: 20px; padding:2px;margin: 0 0 0 10px;}
+#qrcode { position: absolute;z-index: 99999999;width: 120px;height: 140px; background: #fff;border: solid 1px #d1d1d1;padding: 10px;top: 30px;display: none;}
+#qrcode i {display: block;color: #090;font-style: normal;font-size: 12px;font-weight: normal; text-align: center;line-height: 25px;}

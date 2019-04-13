@@ -1,0 +1,350 @@
+
+header{
+    height: 100px;
+    width: 1300px;
+    margin: 0 auto;
+    /*background-color: pink;*/
+   padding-top: 30px;
+
+}
+.w{
+    /*height: 420px;*/
+    width: 1200px;
+    margin: auto;
+}
+.logo{
+    width: 195px;
+    height: 42px;
+    background-color: purple;
+    float: left;
+}
+.logo a{
+    display: block;
+    width: 195px;
+    height: 42px;
+    background: url(../css/../images/logo.jpg) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+
+}
+.nav ul{
+    float: left;
+
+}
+.nav ul li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 30px;
+}
+.nav ul li a{
+   display: block;
+    height: 40px;
+    padding:0 10px;
+    font-size: 18px;
+}
+.nav ul li a:hover{
+    border-bottom: 1px solid red;
+}
+.search{
+    /*background-color: #0099cc;*/
+    height: 40px;
+    width: 410px;
+    float: left;
+    margin-left: 60px;
+    /*position: relative;*/
+}
+.search input{
+    height: 40px;
+    width: 360px;
+    outline: none;
+    /*轮廓线*/
+    border:1px solid red;
+    /*position: absolute;*/
+    line-height: 40px;
+    padding-left: 10px;
+    float: left;
+
+}
+.search button{
+    height: 40px;
+    width: 49px;
+    border: 0;
+    background:url(../images/fa-search.png) no-repeat;
+    /*position: absolute;*/
+    /*right: 12px;*/
+    outline: none;
+    float: left;
+}
+.zhongxin{
+    height: 40px;
+    width: 250px;
+    float: right;
+    line-height: 40px;
+}
+.zhongxin dt,.zhongxin dd{
+    float: left;
+    font-size: 18px;
+}
+.zhongxin dd{
+    margin-left: 15px;
+}
+.zhongxin s{
+    position: relative;
+    padding: 0 20px;
+}
+.zhongxin s::before{
+    content:"";
+    display:block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    text-decoration: none;
+}
+.zhongxin span img{
+    border-radius: 50%;
+}
+.body{
+    /*height: 420px;*/
+    /*width: 100%;*/
+    /*background-color: #1c036c;*/
+
+}
+
+.body .inner{
+    position: relative;
+    /*background: url(../images/banner.jpg) no-repeat center center;*/
+}
+.cebianlan{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 190px;
+    /*background-color: hotpink;*/
+    background: rgba(0,0,0,.3);
+    padding-top: 20px;
+}.cebianlan li{
+    padding-left: 20px;
+    position: relative;
+     height: 40px;
+    /*background-color: burlywood;*/
+ }
+.cebianlan li a{
+    font-size: 14px;
+    color: #ffffff;
+    display: block;
+    height: 40px;
+}
+.cebianlan li a:hover{
+    color: red;
+}
+.cebianlan li span{
+    position: absolute;
+    /*color: #ffffff;*/
+    top: 0;
+    right: 20px;
+}
+.ul{
+    width: 186px;
+    height: 20px;
+    position: absolute;
+    background-color: pink;
+    bottom: 15px;
+    left: 550px;
+}
+.ul i{
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-color:red;
+    margin: 3px 5px;
+    border-radius: 7px;
+    /*line-height: 13px;*/
+    transition: all 3s linear 0s;
+}
+/*.ul .cur{*/
+    /*width: 20px;*/
+    /*border-radius: 5px;*/
+/*}*/
+.ul i:hover{
+    width: 20px;
+    border-radius: 5px;
+}
+.kecheng{
+    width: 228px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #ffffff;
+
+}
+.kecheng dt{
+    height: 50px;
+    background-color: #0099cc;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+.kecheng dd{
+    margin-left: 15px;
+    margin-right: 15px;
+    /*margin-top: 15px;*/
+    height: 60px;
+    border-bottom: 1px solid red;
+    /*text-align: center;*/
+    /*line-height: 60px;*/
+}
+.kecheng .quxiao{
+    border: 0;
+}
+.kecheng dd h5 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.kecheng a{
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    /*background-color: #c81623;*/
+    border: 1px solid red;
+    margin: 0 15px;
+    font-size: 16px;
+}
+.kecheng a:hover{
+    background-color: #0099cc;
+}
+.neizhonga{
+    height: 60px;
+    /*width: 100%;*/
+    margin-top: 10px;
+    /*background-color: red;*/
+    line-height: 60px;
+}
+.java{
+    padding-left: 30px;
+    position: relative;
+    /*border: 1px solid silver;*/
+    box-shadow:0 1px 12px rgba(0,0,0,.6);
+}
+.java a{
+    margin: 0 15px;
+    font-size: 14px;
+}
+.java em{
+    position: absolute;
+    right: 15px;
+}
+.java strong{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.products{
+    margin-top: 30px;
+    /*height: 800px;*/
+}
+.pro-hd{
+    height: 40px;
+    position: relative;
+}
+.pro-hd h4{
+    font-weight: normal;
+    font-size: 18px;
+}
+.pro-hd a{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.pro-bd li{
+    width: 228px;
+    height: 270px;
+    float: left;
+    background-color:#ffffff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.pro-bd li:nth-child(5n){
+    margin-right: 0;
+}
+.pro-bd .pic{
+    overflow: hidden;
+}
+.pro-bd .pic img{
+    transition: all 0.3s;
+}
+.pro-bd .pic img:hover{
+    margin-left: -5px;
+}
+.pro-bd li{
+    transition: all 0.4s;
+}
+.pro-bd li:hover{
+    /*margin-top: -10px;*/
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+}
+.pro-title{
+    /*margin-top: 20px;*/
+    width: 185px;
+    margin: 20px auto;
+    font-size: 14px;
+    font-weight: 700;
+}
+.pro-bd li p{
+    width: 185px;
+    margin: 0 auto;
+}
+.pro-bd li p span{
+    color: #c81623;
+}
+.tong{
+    padding-top: 30px;
+    height: 420px;
+    background-color: silver;
+}
+.floor{
+    height:390px;
+    /*border: 1px solid red;*/
+}
+.foor-l{
+    float: left;
+    margin-left: 20px;
+}
+.foor-l p{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.foor-l a{
+    display: block;
+    height: 35px;
+    width: 130px;
+    border: 1px solid cornflowerblue;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #0099cc;
+    ;
+}
+.foor-r{
+    float: right;
+}
+.foor-r dl{
+    float: left;
+    margin-left: 135px;
+}
+.foor-r dt{
+    font-size: 14px;
+    height: 30px;
+}
+.foor-r dd{
+    height: 20px;
+}

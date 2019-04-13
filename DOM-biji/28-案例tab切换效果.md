@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #list li {
+            list-style-type: none;
+            width: 80px;
+            height: 30px;
+            line-height: 30px;
+            background-color: beige;
+            text-align: center;
+            float: left;
+            margin-left: 5px;
+        }
+
+        #list li.current {
+            background-color: burlywood;
+        }
+
+        #list li a {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+<div id="menu">
+    <ul id="list">
+        <li class="current"><a href="http://www.baidu.com">首页</a>
+        </li>
+        <li><a href="javascript:void(0)">播客</a></li>
+        <li><a href="javascript:void(0)">博客</a></li>
+        <li><a href="javascript:void(0)">相册</a></li>
+        <li><a href="javascript:void(0)">关于</a></li>
+        <li><a href="javascript:void(0)">帮助</a></li>
+    </ul>
+</div>
+<script src="common.js"></script>
+<script>
+     var listobj=my$("list").getElementsByTagName("li");
+     for(var i=0;i<listobj.length;i++){
+         listobj[i].onclick=function () {
+             for(var j=0;j<listobj.length;j++){
+                 listobj[j].removeAttribute("class");
+             }
+             this.className="current";
+             return false
+         }
+     }
+
+</script>
+
+</body>
+</html>

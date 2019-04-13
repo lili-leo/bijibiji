@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="lib/vue.js"></script>
+</head>
+<body>
+
+<div id="app">
+    <a href="" @click.prevent="conName='login'">登录</a>
+    <a href="" @click.prevent="conName='zuche'">注册</a>
+    <component :is="conName"></component>
+</div>
+
+<script>
+  Vue.component("login",{
+    template:"<h3>登录组件</h3>"
+  })
+
+  Vue.component("zuche",{
+    template:"<h3>注册组件</h3>"
+  })
+  var vm = new Vue({
+    el:"#app",
+    data:{
+      conName:"login"
+    }
+  })
+</script>
+</body>
+</html>
